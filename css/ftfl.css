@@ -1,0 +1,594 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
+@font-face {
+  font-family: "Flat-UI-Icons-16";
+  src: url("/fonts/Flat-UI-Icons-16.eot");
+  src: url("/fonts/Flat-UI-Icons-16.eot#iefix") format("embedded-opentype"), url("/fonts/Flat-UI-Icons-16.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: "Flat-UI-Icons-16";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+/* Use the following CSS code if you want to have a class per icon */
+/*Instead of a list of all class selectors,
+ *you can use the generic selector below, but it's slower:
+ *[class*="fui-"]:before { */
+.fui-volume-16:before, .fui-video-16:before, .fui-time-16:before, .fui-settings-16:before, .fui-plus-16:before, .fui-new-16:before, .fui-menu-16:before, .fui-man-16:before, .fui-mail-16:before, .fui-lock-16:before, .fui-location-16:before, .fui-heart-16:before, .fui-eye-16:before, .fui-cross-16:before, .fui-cmd-16:before, .fui-checkround-16:before, .fui-checkmark-16:before, .fui-camera-16:before, .fui-calendar-16:before, .fui-bubble-16:before {
+  font-family: "Flat-UI-Icons-16";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.fui-volume-16:before {
+  content: "\e000"; }
+
+.fui-video-16:before {
+  content: "\e001"; }
+
+.fui-time-16:before {
+  content: "\e002"; }
+
+.fui-settings-16:before {
+  content: "\e003"; }
+
+.fui-plus-16:before {
+  content: "\e004"; }
+
+.fui-new-16:before {
+  content: "\e005"; }
+
+.fui-menu-16:before {
+  content: "\e006"; }
+
+.fui-man-16:before {
+  content: "\e007"; }
+
+.fui-mail-16:before {
+  content: "\e008"; }
+
+.fui-lock-16:before {
+  content: "\e009"; }
+
+.fui-location-16:before {
+  content: "\e00a"; }
+
+.fui-heart-16:before {
+  content: "\e00b"; }
+
+.fui-eye-16:before {
+  content: "\e00c"; }
+
+.fui-cross-16:before {
+  content: "\e00d"; }
+
+.fui-cmd-16:before {
+  content: "\e00e"; }
+
+.fui-checkround-16:before {
+  content: "\e00f"; }
+
+.fui-checkmark-16:before {
+  content: "\e010"; }
+
+.fui-camera-16:before {
+  content: "\e011"; }
+
+.fui-calendar-16:before {
+  content: "\e012"; }
+
+.fui-bubble-16:before {
+  content: "\e013"; }
+
+@font-face {
+  font-family: "Flat-UI-Icons-24";
+  src: url("/fonts/Flat-UI-Icons-24.eot");
+  src: url("/fonts/Flat-UI-Icons-24.eot#iefix") format("embedded-opentype"), url("/fonts/Flat-UI-Icons-24.woff") format("woff"), url("/fonts/Flat-UI-Icons-24.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: "Flat-UI-Icons-24";
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+/* Use the following CSS code if you want to have a class per icon */
+/*Instead of a list of all class selectors,
+ *you can use the generic selector below, but it's slower:
+ *[class*="fui-"]:before { */
+.fui-video-24:before, .fui-time-24:before, .fui-settings-24:before, .fui-plus-24:before, .fui-new-24:before, .fui-menu-24:before, .fui-man-24:before, .fui-mail-24:before, .fui-lock-24:before, .fui-location-24:before, .fui-heart-24:before, .fui-eye-24:before, .fui-cross-24:before, .fui-cmd-24:before, .fui-checkround-24:before, .fui-checkmark-24:before, .fui-calendar-24:before, .fui-bubble-24:before, .fui-volume-24:before, .fui-camera-24:before {
+  font-family: "Flat-UI-Icons-24";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.fui-video-24:before {
+  content: "\e000"; }
+
+.fui-time-24:before {
+  content: "\e001"; }
+
+.fui-settings-24:before {
+  content: "\e002"; }
+
+.fui-plus-24:before {
+  content: "\e003"; }
+
+.fui-new-24:before {
+  content: "\e005"; }
+
+.fui-menu-24:before {
+  content: "\e006"; }
+
+.fui-man-24:before {
+  content: "\e007"; }
+
+.fui-mail-24:before {
+  content: "\e008"; }
+
+.fui-lock-24:before {
+  content: "\e009"; }
+
+.fui-location-24:before {
+  content: "\e00a"; }
+
+.fui-heart-24:before {
+  content: "\e00b"; }
+
+.fui-eye-24:before {
+  content: "\e00c"; }
+
+.fui-cross-24:before {
+  content: "\e00d"; }
+
+.fui-cmd-24:before {
+  content: "\e00e"; }
+
+.fui-checkround-24:before {
+  content: "\e00f"; }
+
+.fui-checkmark-24:before {
+  content: "\e010"; }
+
+.fui-calendar-24:before {
+  content: "\e011"; }
+
+.fui-bubble-24:before {
+  content: "\e012"; }
+
+.fui-volume-24:before {
+  content: "\e013"; }
+
+.fui-camera-24:before {
+  content: "\e004"; }
+
+
+body {
+	background: #fff;
+	font: 14px/1.231 "Lato", sans-serif;
+	padding: 0;
+	padding-bottom: 40px;
+}
+.navbar {
+	-webkit-box-shadow:  0px 3px 8px 0px rgba(0, 0, 0, .25);
+	box-shadow:  0px 3px 8px 0px rgba(0, 0, 0, .25);
+	margin: 0;
+	border-radius: 0;
+}
+.navbar * {
+	box-sizing: border-box;
+}
+.navbar .nav li a {
+	padding-top: 14px;
+}
+.navbar .nav li ul a {
+	padding-top: 3px;
+}
+:focus {
+	outline: none!important;
+}
+.navbar li a[data-target]:focus {
+	color: #999;
+}
+i[class^="ss-"] {
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+.page-header i[class^="ss-"].ss-phone {
+	display: inline;
+	float: none;
+	line-height: normal;
+	vertical-align: middle;
+}
+.tel a {
+	color: #000;
+	cursor: default;
+}
+.tel a:hover {
+	color: #000;
+	cursor: default;
+	text-decoration: none;
+}
+.navbar li:nth-child(1n+2) a i,
+.modal i {
+	margin-top: 2px;
+}
+.modal-header h3 {
+	margin: 0;
+}
+.navbar-inner {
+	border-radius: 0;
+}
+.main-bg {
+	background: #f1f1f1;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	-webkit-box-shadow:  0px 2px 8px 0px rgba(0, 0, 0, .25);
+	box-shadow:  0px 2px 8px 0px rgba(0, 0, 0, .25);
+}
+footer {
+	height: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+.page-header {
+	border-bottom: 0;
+	float: left;
+	font-size: 30px;
+	margin: 0;
+	padding: 10px 0 15px 0;
+	width: 100%;
+}
+.navbar-inverse .brand {
+	color: #fff;
+}
+.page-header h1 {
+	float: left;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+}
+.page-header h2 {
+	color: #666;
+	float: left;
+	font-size: 19.5px;
+	line-height: 26px;
+	margin: 0;
+	padding: 14px 0 0 10px;
+	vertical-align: baseline;
+}
+.page-header span {
+	display: block;
+	float: left;
+	font-size: 24.5px;
+	padding: 9px 0 0 0;
+	text-align: left;
+}
+.container .jumbotron {
+	background: #fff;
+	-webkit-box-shadow:  0 0 5px 1px rgba(0, 0, 0, .25);
+	box-shadow:  0 0 5px 1px rgba(0, 0, 0, .25);
+	float: left;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.container .jumbotron .hero-thumb {
+	border-right: 1px solid #888;
+	float: left;
+}
+h2 {
+	color: #42b5e8;
+}
+.container .jumbotron aside a {
+	background: url(/images/fishin1.jpg) no-repeat 0 0;
+	background-size: cover;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.container .jumbotron h1 {
+	color: #42b5e8;
+	font-size: 45px;
+	font-weight: normal;
+	margin: 20px 0;
+	padding-right: 20px;
+}
+.container .jumbotron h1,
+.container .jumbotron h4 {
+	text-align: center;
+}
+.container .jumbotron p {
+	color: #666;
+	font-size: 15px;
+	line-height: 18px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.container .jumbotron p:last-child {
+	text-align: center;
+}
+.container .jumbotron .hero-thumb img {
+	-webkit-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+	max-height: 420px;
+	max-width: 370px;
+	width: 100%;
+}
+.container .jumbotron ul {
+	margin: 0;
+}
+.container .jumbotron ul li {
+	margin-left: 25px;
+}
+.container .jumbotron .btn {
+	margin-top: 15px;
+}
+.span12 ul {
+	margin-left: 0;
+}
+.span12 li {
+	float: left;
+	font-size: 15px;
+	margin-left: 25px;
+	padding-bottom: 10px;
+}
+.col-md-4:last-child ul {
+	padding-top: 5px;
+}
+.table td {
+	padding: 12px;
+}
+table p {
+	margin: 0;
+	padding: 0;
+}
+table tr td.price {
+	text-align: center;
+	vertical-align: middle;
+}
+#avail li,
+#rates table {
+	font-weight: bold;
+}
+.lakes .row {
+	background: #f1f1f1;
+	border-radius: 5px;
+	margin: 0;
+	padding-top: 10px;
+}
+.lakes .row .col-md-3 {
+	box-sizing: border-box;
+}
+.lakes .row .col-md-3:first-child {
+	padding-left: 20px;
+}
+.lakes .row .col-md-3:last-child {
+	padding-right: 20px;
+}
+.lakes .row .col-md-3:first-child {
+	margin-left: 0;
+}
+.lakes h2 {
+	margin-top: 20px;
+}
+.lakes h2 {
+	border: none;
+}
+.sponsors {
+	margin-bottom: 20px;
+}
+.sponsors header {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+.sponsors h2 {
+	padding: 10px 0 5px;
+}
+.sponsors ul {
+	float: left;
+	list-style: none;
+	margin-left: 0;
+	margin-top: 20px;
+}
+.sponsors ul li {
+	float: left;
+	margin: 0 30px 0 0;
+}
+.sponsors ul li:last-child {
+	margin: 0;
+}
+.sponsors ul li a img {
+	display: block;
+	height: 100px;
+	width: 100px;
+}
+/*.sponsors ul li:first-child a {
+	background: url(/web/20190125115552im_/http://fishingthefingerlakes.com/images/PureFishing.png) no-repeat 0 0;
+}
+.sponsors ul li:last-child a {
+	background: url(/web/20190125115552im_/http://fishingthefingerlakes.com/images/pelican-point.png) no-repeat 0 0;
+}
+.sponsors ul li a.bpro {
+	background: url(/web/20190125115552im_/http://fishingthefingerlakes.com/images/bpro.png) no-repeat 0 15px;
+}*/
+.lakes h4 {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.lakes p {
+	color: #666;
+}
+.form-horizontal {
+}
+.form-actions {
+	background: none;
+	border: none;
+}
+.contact-info {
+	margin: 0 auto;
+	width: 200px;
+}
+iframe {
+	border: none;
+	height: 100%;
+	min-height: 768px;
+}
+.fb-like {
+	float: right;
+	margin-top: 2px;
+}
+.navbar iframe {
+	height: auto;
+	min-height: 0;
+	margin-top: 8px;
+}
+@media screen and (max-width: 979px) {
+  div.fb_iframe_widget {
+    display: none;
+  }
+}
+@media (max-width: 979px) and (min-width: 768px) {
+	.page-header h2 {
+		padding-left: 0;
+	}
+	.page-header span {
+		padding-left: 10px;
+	}
+}
+@media (min-width: 1200px) {
+	.container .jumbotron h1 {
+		font-size: 60px;
+		font-weight: normal;
+		margin: 20px 0;
+		padding-right: 20px;
+	}
+	.container .jumbotron p {
+		color: #666;
+		font-size: 20px;
+		line-height: 27px;
+		padding-right: 20px;
+	}
+
+	.page-header {
+	}
+	.page-header h1 {
+	}
+	.page-header span {
+		float: none;
+		padding-left: 10px;
+		text-align: right;
+	}
+}
+@media (max-width: 767px) {
+	body {
+		padding: 0;
+	}
+	.navbar .nav.pull-right {
+		float: none;
+	}
+	.navbar .nav {
+		margin-left: 0;
+		padding-left: 0;
+		width: 100%;
+	}
+	.navbar .nav li {
+		width: 100%;
+	}
+	.navbar .nav li a {
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.brand {
+		width: 100%;
+	}
+	.container .jumbotron {
+		margin: 0;
+	}
+	.container .jumbotron .col-md-4 {
+		overflow: hidden;
+	}
+	.container .jumbotron .col-md-8 {
+		padding: 10px;
+	}
+	.container .jumbotron .col-md-8 h1 {
+		font-size: 25px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	.container .jumbotron .hero-thumb {
+		text-align: center;
+		width: 100%;
+	}
+	.container .jumbotron .hero-thumb img {
+		border-radius: 0 0 0 0;
+	}
+	.main {
+		margin: 0;
+	}
+	.main-bg {
+		padding: 10px;
+	}
+	.navbar-fixed-top {
+		margin: 0;
+	}
+	.page-header h2 {
+		padding-left: 0;
+	}
+	.page-header span {
+		padding-left: 0;
+	}
+	.avail, .lakes {
+		padding: 10px;
+	}
+	.lakes .row {
+		padding: 10px;
+	}
+	.lakes .row .col-md-3, .lakes .row .col-md-3:first-child {
+		padding: 0;
+	}
+	.sponsors ul li a img {
+		height: 70px;
+		width: 70px;
+	}
+	#wrapper {
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		margin-top: 176px!important;
+	}
+}
+
+
+
+#wrap {
+	height: 100%;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#scroller {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
