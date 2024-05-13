@@ -1,8 +1,8 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
 @font-face {
   font-family: "Flat-UI-Icons-16";
-  src: url("/fonts/Flat-UI-Icons-16.eot");
-  src: url("/fonts/Flat-UI-Icons-16.eot#iefix") format("embedded-opentype"), url("/fonts/Flat-UI-Icons-16.woff") format("woff");
+  src: url("../fonts/Flat-UI-Icons-16.eot");
+  src: url("../fonts/Flat-UI-Icons-16.eot#iefix") format("embedded-opentype"), url("../fonts/Flat-UI-Icons-16.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -89,8 +89,8 @@
 
 @font-face {
   font-family: "Flat-UI-Icons-24";
-  src: url("/fonts/Flat-UI-Icons-24.eot");
-  src: url("/fonts/Flat-UI-Icons-24.eot#iefix") format("embedded-opentype"), url("/fonts/Flat-UI-Icons-24.woff") format("woff"), url("/fonts/Flat-UI-Icons-24.ttf") format("truetype");
+  src: url("../fonts/Flat-UI-Icons-24.eot");
+  src: url("../fonts/Flat-UI-Icons-24.eot#iefix") format("embedded-opentype"), url("../fonts/Flat-UI-Icons-24.woff") format("woff"), url("../fonts/Flat-UI-Icons-24.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -296,7 +296,7 @@ h2 {
 	color: #42b5e8;
 }
 .container .jumbotron aside a {
-	background: url(/images/fishin1.jpg) no-repeat 0 0;
+	background: url(../images/fishin1.jpeg) no-repeat 0 0;
 	background-size: cover;
 	display: block;
 	height: 100%;
